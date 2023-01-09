@@ -1,0 +1,27 @@
+{
+  "name": "TimeBooking",
+  "fields": [
+    {
+      "fieldName": "booking",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "personalNumber",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "time_booking",
+  "dto": "no",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["timeBookingService"],
+  "microserviceName": "timeBookingService",
+  "clientRootFolder": "timeBookingService",
+  "databaseType": "sql",
+  "changelogDate": "20210610081521"
+}
